@@ -8,11 +8,11 @@
   }
   
   body {
-    height: 100vh;
-    background: linear-gradient(#87ceeb, #E0f6ff);
+    
+    background: fixed linear-gradient(#87ceeb, #E0f6ff) ;
     display: flex;
     justify-content: center;
-    align-items: center;
+
     /*background-image: url("../img/bg.jpg");
     background-position: center;
     background-size: cover;*/
@@ -33,6 +33,7 @@
   
   button:hover {
     background-color: #102f5e;
+
   }
   
   button:hover > i {
@@ -50,7 +51,7 @@
     padding: 0.25rem 0.5rem;
   }
   
-  hide {
+  .hide {
     display: none;
   }
   
@@ -93,6 +94,9 @@
   #cancel-edit-btn {
     margin-top: 1rem;
     color: #444;
+  }
+  #cancel-edit-btn:hover {
+    color: #fff;
   }
   
   /* Todo Toolbar */
